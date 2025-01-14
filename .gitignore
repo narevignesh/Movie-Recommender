@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 *.pkl
 *.gz
 *.sqlite
 *.db
+=======
+*.pkl
+*.gz
+*.sqlite
+*.db
+>>>>>>> fee83ef29ef5bc7982a935e5c7f8cbac9b8c6923
