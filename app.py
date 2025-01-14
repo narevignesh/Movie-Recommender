@@ -1,5 +1,7 @@
 import streamlit as st
 import pickle
+import gzip
+import pickle
 
 # Set up the page configuration
 st.set_page_config(
@@ -21,7 +23,10 @@ st.markdown(
 
 # Load data
 movies = pickle.load(open('movie_list.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+
+# Load the compressed similarity matrix
+with gzip.open('similarity_compressed.pkl.gz', 'rb') as f:
+    similarity = pickle.load(f)
 
 # Dropdown for movie selection
 movie_list = movies['title'].values
