@@ -1,8 +1,7 @@
-<<<<<<< HEAD
-=======
+
 streamlit
 numpy
 pandas
 scikit-learn
 requests
->>>>>>> 32f5d23fdaa7e761986ae8e618abbce76c492c16
+
