@@ -1,7 +1,7 @@
-Here is a sample **README.md** for your GitHub repository:
 
 ```markdown
 # 🎬 Movie Recommender System 🎥
+content based recommender
 
 Discover movies you'll love with the **Movie Recommender System**! This project uses machine learning techniques to provide personalized movie recommendations based on user input.
 
