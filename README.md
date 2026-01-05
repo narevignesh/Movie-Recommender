@@ -33,7 +33,7 @@ Check out the live demo of the application here:
    - Cosine similarity is calculated for movie comparisons.
 3. **Recommendation System:**
    - The user selects a movie, and the system recommends the top 5 similar movies.
-
+```markdown
 ## 🖥️ Running the Project Locally
 1. Clone the repository:
    ```bash
@@ -89,4 +89,5 @@ Connect with me on [GitHub](https://github.com/narevignesh)
 ```
 
 Let me know if you need any additional edits!
+
 
